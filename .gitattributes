@@ -1,0 +1,18 @@
+# Normalise all text to LF in the repository. Without this, Windows
+# checkouts commit CRLF and scripts/fetch-references.sh breaks on Linux
+# and macOS with "bad interpreter: /usr/bin/env bash^M".
+* text=auto eol=lf
+
+*.sh text eol=lf
+*.mjs text eol=lf
+*.js  text eol=lf
+*.py  text eol=lf
+*.md  text eol=lf
+*.json text eol=lf
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
+*.webm binary
+*.blend binary

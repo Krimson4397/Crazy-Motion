@@ -1,0 +1,18 @@
+# vendored upstream reference repos — cloned locally, never committed
+references/
+
+# render output and scratch
+out/
+renders/
+frames/
+probe/
+*.mp4.tmp
+
+# node
+node_modules/
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
