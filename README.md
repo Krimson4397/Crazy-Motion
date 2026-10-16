@@ -14,7 +14,7 @@ Two halves, one repo:
 | Part | State |
 |---|---|
 | `prompts/extract-taste-opus55.md` | Ready to run |
-| `prompts/runs/` | Empty — waiting for the first extraction |
+| `prompts/runs/yoyoo.md` | First run landed — 12 sections, 8,500 words, 115 schema-valid rules |
 | `skills/cinematic-motion-design/` | Not written yet |
 
 The skill is deliberately not written yet. It gets written from the extracted
